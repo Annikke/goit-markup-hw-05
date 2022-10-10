@@ -488,7 +488,7 @@ address {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%) scaleY(1);
+    transform: translate(-50%, -50%) scale(1, 1);
     width: 528px;
     height: 581px;
     background-color: rgba(255, 255, 255, 1);
@@ -496,7 +496,7 @@ address {
 }
 
 .backdrop.is-hidden .modal {
-    transform: translate(-50%, -50%) scaleY(0);
+    transform: translate(-50%, -50%) scale(1.5, 0);
 }
 
 .modal-btn{
